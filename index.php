@@ -127,74 +127,142 @@
     </section>
 
     <!-- Stages Section -->
-    <section id="stages" class="section-padding">
+    <section id="stages" class="section-padding stages-section">
         <div class="container">
             <h2 class="section-title text-center mb-5">Stages</h2>
-            <div class="row g-4">
 
+            <div class="timeline-container">
                 <!-- Stage 1 -->
-                <div class="col-lg-6">
-                    <div class="card-custom h-100">
-                        <div class="stage-header">
-                            <h3>Stage 1 - [Nom de l'entreprise]</h3>
-                            <p class="text">[Dates du stage]</p>
+                <div class="timeline-item-stage">
+                    <div class="timeline-marker">
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="timeline-content-stage">
+                        <div class="stage-date-badge">
+                            <i class="bi bi-calendar-event"></i>
+                            <span>12 Mai - 27 Juin 2025</span>
                         </div>
-                        <div class="stage-content">
-                            <h5>Entreprise</h5>
-                            <p>[Description courte de l'entreprise - secteur d'activité, taille, localisation]</p>
+                        <h3 class="stage-title">Stage 1 - BlackHole Événements</h3>
 
-                            <h5 class="mt-3">Missions</h5>
-                            <p>[Résumé des missions effectuées pendant le stage]</p>
+                        <div class="stage-details">
+                            <div class="stage-info-block">
+                                <div class="info-icon">
+                                    <i class="bi bi-building"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h5>Entreprise</h5>
+                                    <p>Spécialiste de l'événementiel sur mesure : mariages, concerts, festivals... basée à Riom</p>
+                                </div>
+                            </div>
 
-                            <h5 class="mt-3">Technologies</h5>
-                            <div class="tech-tags">
-                                <span class="badge bg-tech">PHP</span>
-                                <span class="badge bg-tech">MySQL</span>
-                                <span class="badge bg-tech">Bootstrap</span>
-                                <!-- Ajouter les technologies utilisées -->
+                            <div class="stage-info-block">
+                                <div class="info-icon">
+                                    <i class="bi bi-list-task"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h5>Missions</h5>
+                                    <p>- Refonte complète du site</p>
+                                    <p>- Audit du site AVI (Société mère) au vu d'une réunion avec leur agence web extérieure</p>
+                                    <p>- Participation à leurs activités afin de m'intégrer et de m'imprégner de leur cœur de métier</p>
+                                </div>
+                            </div>
+
+                            <div class="stage-info-block">
+                                <div class="info-icon">
+                                    <i class="bi bi-tools"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h5>Technologies</h5>
+                                    <div class="tech-tags-stage">
+                                        <span class="badge bg-tech-stage">PHP</span>
+                                        <span class="badge bg-tech-stage">MySQL</span>
+                                        <span class="badge bg-tech-stage">CSS/JS</span>
+                                        <span class="badge bg-tech-stage">Bootstrap</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="stage-footer mt-4">
-                            <a href="assets/documents/rapports-stages/rapport-stage-1.pdf" class="btn btn-outline-light" target="_blank">
-                                <i class="bi bi-file-pdf"></i> Voir le rapport
+
+                        <div class="stage-action">
+                            <a href="https://www.blackhole-evenements.com/" class="btn-stage me-3" target="_blank">
+                                <i class="bi bi-globe"></i>
+                                <span>Lien du site</span>
+                            </a>
+                            <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_BlackHole.pdf" class="btn-stage" target="_blank">
+                                <i class="bi bi-file-pdf-fill"></i>
+                                <span>Consulter le rapport</span>
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Stage 2 -->
-                <div class="col-lg-6">
-                    <div class="card-custom h-100">
-                        <div class="stage-header">
-                            <h3>Stage 2 - [Nom de l'entreprise]</h3>
-                            <p class="text">[Dates du stage] - À venir</p>
+                <div class="timeline-item-stage">
+                    <div class="timeline-marker">
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="timeline-content-stage">
+                        <div class="stage-date-badge upcoming">
+                            <i class="bi bi-calendar-event"></i>
+                            <span>05 Janvier - 13 Février 2026</span>
                         </div>
-                        <div class="stage-content">
-                            <h5>Entreprise</h5>
-                            <p>[Description courte de l'entreprise - à compléter après le stage]</p>
+                        <h3 class="stage-title">Stage 2 - APA 63</h3>
 
-                            <h5 class="mt-3">Missions</h5>
-                            <p>[Missions prévues ou effectuées]</p>
+                        <div class="stage-details">
+                            <div class="stage-info-block">
+                                <div class="info-icon">
+                                    <i class="bi bi-building"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h5>Entreprise</h5>
+                                    <p>Association protectrice des animaux du Puy-de-Dôme</p>
+                                </div>
+                            </div>
 
-                            <h5 class="mt-3">Technologies</h5>
-                            <div class="tech-tags">
-                                <span class="badge bg-tech">[Technologies]</span>
+                            <div class="stage-info-block">
+                                <div class="info-icon">
+                                    <i class="bi bi-list-task"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h5>Missions</h5>
+                                    <p>- </p>
+                                    <p>- </p>
+                                </div>
+                            </div>
+
+                            <div class="stage-info-block">
+                                <div class="info-icon">
+                                    <i class="bi bi-tools"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h5>Technologies</h5>
+                                    <div class="tech-tags-stage">
+                                        <span class="badge bg-tech-stage">...</span>
+                                        <span class="badge bg-tech-stage">...</span>
+                                        <span class="badge bg-tech-stage">...</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="stage-footer mt-4">
-                            <a href="#" class="btn btn-outline-light">
-                                <i class="bi bi-file-pdf"></i> Rapport à venir
+
+                        <div class="stage-action">
+                            <a href="#" class="btn-stage me-3">
+                                <i class="bi bi-globe"></i>
+                                <span>Démo</span>
+                            </a>
+                            <a href="#" class="btn-stage">
+                                <i class="bi bi-hourglass-split"></i>
+                                <span>Rapport à venir</span>
                             </a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
     <!-- Projets E6 Section -->
-    <section id="projets" class="section-padding">
+    <section id="projets" class="section-padding projects-section">
         <div class="container">
             <h2 class="section-title text-center mb-5">Projets</h2>
 
@@ -202,48 +270,65 @@
 
                 <!-- Projet 1 - Civilipédia -->
                 <div class="col-lg-6">
-                    <div class="card-custom project-card h-100">
-                        <div class="project-header">
-                            <h3>Civilipédia</h3>
-                        </div>
-
-                        <div class="project-content">
-                            <h5>Description</h5>
-                            <p>[Description du projet Civilipédia - objectifs, fonctionnalités principales, contexte]</p>
-
-                            <h5 class="mt-3">Architecture</h5>
-                            <p>
-                                <strong>Client :</strong> Interface web MVC<br>
-                                <strong>API :</strong> API REST documentée (Swagger)
-                            </p>
-
-                            <h5 class="mt-3">Technologies</h5>
-                            <div class="tech-tags">
-                                <span class="badge bg-tech">PHP</span>
-                                <span class="badge bg-tech">MySQL</span>
-                                <span class="badge bg-tech">Bootstrap</span>
-                                <span class="badge bg-tech">JavaScript</span>
-                                <span class="badge bg-tech">MVC</span>
+                    <div class="project-card h-100">
+                        <!-- Image du projet -->
+                        <div class="project-image">
+                            <img src="assets/img/imgTPWiki.jpg" alt="Civilipédia" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-status">
+                                    <span class="badge bg-success">
+                                        <i class="bi bi-check-circle-fill"></i> Terminé
+                                    </span>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="project-footer mt-4">
-                            <div class="d-flex flex-wrap gap-2">
-                                <a href="#" class="btn btn-outline-light" target="_blank">
-                                    <i class="bi bi-globe"></i> Démo en ligne
-                                </a>
-                                <a href="#" class="btn btn-outline-light" target="_blank">
-                                    <i class="bi bi-file-earmark-text"></i> Fiche E6
-                                </a>
-                                <a href="#" class="btn btn-outline-light" target="_blank">
-                                    <i class="bi bi-file-pdf"></i> Rapport
-                                </a>
-                                <a href="#" class="btn btn-outline-light" target="_blank">
-                                    <i class="bi bi-book"></i> Swagger API
-                                </a>
-                                <a href="#" class="btn btn-outline-light" target="_blank">
-                                    <i class="bi bi-github"></i> Dépôt Git
-                                </a>
+                        <div class="project-body">
+                            <div class="project-header">
+                                <h3>Civilipédia</h3>
+                                <p class="project-tagline">Encyclopédie interactive des civilisations</p>
+                            </div>
+
+                            <div class="project-content">
+                                <div class="project-description">
+                                    <p>Civilipédia est un wiki collaboratif sur les civilisations, pensé pour être accessible, responsive et géré par différents niveaux d’utilisateurs, avec un développement structuré et une documentation claire</p>
+                                </div>
+
+                                <div class="project-tech">
+                                    <h5><i class="bi bi-code-slash"></i> Technologies</h5>
+                                    <div class="tech-tags-project">
+                                        <span class="badge bg-tech-project">PHP</span>
+                                        <span class="badge bg-tech-project">MySQL</span>
+                                        <span class="badge bg-tech-project">Bootstrap</span>
+                                        <span class="badge bg-tech-project">JavaScript</span>
+                                        <span class="badge bg-tech-project">MVC</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-footer">
+                                <div class="project-links">
+                                    <a href="https://sio.jbdelasalle.com/~jfrachisse/TP_Wiki_ClientAPI/" class="project-link" target="_blank" title="Démo en ligne">
+                                        <i class="bi bi-globe"></i>
+                                        <span>Démo</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Fiche E6">
+                                        <i class="bi bi-file-earmark-text"></i>
+                                        <span>Fiche E6</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Rapport">
+                                        <i class="bi bi-file-pdf"></i>
+                                        <span>Rapport</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Documentation API">
+                                        <i class="bi bi-book"></i>
+                                        <span>API</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Dépôt GitHub">
+                                        <i class="bi bi-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -251,44 +336,63 @@
 
                 <!-- Projet 2 - À choisir -->
                 <div class="col-lg-6">
-                    <div class="card-custom project-card h-100">
-                        <div class="project-header">
-                            <h3>[Nom du Projet 2]</h3>
-                        </div>
-
-                        <div class="project-content">
-                            <h5>Description</h5>
-                            <p>[Description du second projet - à sélectionner parmi les 3 projets restants]</p>
-
-                            <h5 class="mt-3">Architecture</h5>
-                            <p>
-                                <strong>Client :</strong> [Type de client]<br>
-                                <strong>API :</strong> API RESTful documentée (Swagger)
-                            </p>
-
-                            <h5 class="mt-3">Technologies</h5>
-                            <div class="tech-tags">
-                                <span class="badge bg-tech">[Technologies]</span>
+                    <div class="project-card h-100">
+                        <!-- Image du projet -->
+                        <div class="project-image">
+                            <img src="assets/images/project2-preview.jpg" alt="En attente de choisir" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-status">
+                                    <span class="badge bg-warning">
+                                        <i class="bi bi-hourglass-split"></i> En cours
+                                    </span>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="project-footer mt-4">
-                            <div class="d-flex flex-wrap gap-2">
-                                <a href="#" class="btn btn-outline-light">
-                                    <i class="bi bi-globe"></i> Démo en ligne
-                                </a>
-                                <a href="#" class="btn btn-outline-light">
-                                    <i class="bi bi-file-earmark-text"></i> Fiche E6
-                                </a>
-                                <a href="#" class="btn btn-outline-light">
-                                    <i class="bi bi-file-pdf"></i> Rapport
-                                </a>
-                                <a href="#" class="btn btn-outline-light">
-                                    <i class="bi bi-book"></i> Swagger API
-                                </a>
-                                <a href="#" class="btn btn-outline-light">
-                                    <i class="bi bi-github"></i> Dépôt Git
-                                </a>
+                        <div class="project-body">
+                            <div class="project-header">
+                                <h3>Nom du Projet 2</h3>
+                                <p class="project-tagline">Slogan du projet</p>
+                            </div>
+
+                            <div class="project-content">
+                                <div class="project-description">
+                                    <p>Description du second projet</p>
+                                </div>
+
+                                <div class="project-tech">
+                                    <h5><i class="bi bi-code-slash"></i> Technologies</h5>
+                                    <div class="tech-tags-project">
+                                        <span class="badge bg-tech-project">...</span>
+                                        <span class="badge bg-tech-project">...</span>
+                                        <span class="badge bg-tech-project">...</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="project-footer">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank" title="Démo en ligne">
+                                        <i class="bi bi-globe"></i>
+                                        <span>Démo</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Fiche E6">
+                                        <i class="bi bi-file-earmark-text"></i>
+                                        <span>Fiche E6</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Rapport">
+                                        <i class="bi bi-file-pdf"></i>
+                                        <span>Rapport</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Documentation API">
+                                        <i class="bi bi-book"></i>
+                                        <span>API</span>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank" title="Dépôt GitHub">
+                                        <i class="bi bi-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -335,5 +439,10 @@
     </footer>
 
     <!-- Bootstrap JS -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="https://cdn.jsdeliv
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
