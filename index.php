@@ -53,7 +53,7 @@
                     <h2 class="hero-subtitle mb-4">Développeur étudiant</h2>
                     <p class="hero-description mb-4">
                         Étudiant en BTS SIO option SLAM, passionné par le développement web et la création d'applications innovantes.
-                        Spécialisé en PHP, Symfony et développement avec une forte orientation architecture MVC et API REST.
+                        Spécialisé en PHP, Symfony et développement avec une forte orientation architecture MVC et API RESTful.
                     </p>
                     <div class="hero-stats mb-4">
                         <div class="stat-item">
