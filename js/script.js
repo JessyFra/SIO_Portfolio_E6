@@ -176,13 +176,6 @@ function typeWriter(element, text, speed = 100) {
     type();
 }
 
-// Uncomment to enable typing effect
-// document.addEventListener('DOMContentLoaded', () => {
-//     const subtitle = document.querySelector('.hero-subtitle');
-//     const originalText = subtitle.textContent;
-//     typeWriter(subtitle, originalText, 80);
-// });
-
 // ==========================================
 // PERFORMANCE: Lazy load images
 // ==========================================

@@ -28,6 +28,7 @@
                 <a class="nav-link" href="#accueil">Accueil</a>
                 <a class="nav-link" href="#stages">Stages</a>
                 <a class="nav-link" href="#projets_retenus">Projets retenus</a>
+                <a class="nav-link" href="#autres_realisations">Autres réalisations</a>
             </div>
         </div>
     </nav>
@@ -170,15 +171,12 @@
                         <div class="tl-actions">
                             <a href="https://www.blackhole-evenements.com/" class="card-link" target="_blank">
                                 <i class="bi bi-globe2"></i> Voir le site
-                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
-                                    <path d="M3 8h10M9 4l4 4-4 4" />
-                                </svg>
                             </a>
                             <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_BlackHole.pdf" class="card-link" target="_blank">
                                 <i class="bi bi-file-pdf"></i> Rapport de stage
-                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
-                                    <path d="M3 8h10M9 4l4 4-4 4" />
-                                </svg>
+                            </a>
+                            <a href="assets/documents/attestations-stages/AttestationStage_BlackHole.jpg" class="card-link" target="_blank">
+                                <i class="bi bi-patch-check"></i> Attestation de stage
                             </a>
                         </div>
                     </div>
@@ -223,9 +221,9 @@
                             </span>
                             <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_APA63.pdf" class="card-link" target="_blank">
                                 <i class="bi bi-file-pdf"></i> Rapport de stage
-                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
-                                    <path d="M3 8h10M9 4l4 4-4 4" />
-                                </svg>
+                            </a>
+                            <a href="assets/documents/attestations-stages/AttestationStage_APA63.jpg" class="card-link" target="_blank">
+                                <i class="bi bi-patch-check"></i> Attestation de stage
                             </a>
                         </div>
                     </div>
@@ -264,9 +262,7 @@
                             <span class="tag">MVC</span>
                         </div>
                         <div class="proj-links">
-                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
-                                    <path d="M3 8h10M9 4l4 4-4 4" />
-                                </svg></span>
+                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo</span>
                             <span class="card-link sm"><i class="bi bi-file-earmark-text"></i> Fiche E6</span>
                             <span class="card-link sm"><i class="bi bi-github"></i> GitHub</span>
                         </div>
@@ -281,14 +277,87 @@
                         </svg>
                     </div>
                     <div class="proj-body">
+                        <p class="proj-tag">Site de petites annonces</p>
+                        <h3 class="proj-title">AnnonceLib</h3>
+                        <p class="proj-desc">Plateforme de petites annonces entre particuliers — recherche par catégorie et ville, dépôt d'annonces avec photos, messagerie entre utilisateurs et espace administration.</p>
+                        <div class="tag-row">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">MVC</span>
+                        </div>
+                        <div class="proj-links">
+                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo</span>
+                            <span class="card-link sm"><i class="bi bi-file-earmark-text"></i> Fiche E6</span>
+                            <span class="card-link sm"><i class="bi bi-github"></i> GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── AUTRES RÉALISATIONS ── -->
+    <section id="autres_realisations" class="page-section">
+        <div class="wrapper">
+
+            <div class="section-heading anim" style="--d:0s">
+                <div class="section-label-row">
+                    <span>Autres réalisations</span>
+                </div>
+            </div>
+
+            <div class="cards-grid" style="grid-template-columns: repeat(3, 1fr);">
+
+                <!-- Réalisation 1 -->
+                <div class="proj-card anim" style="--d:.1s">
+                    <div class="proj-img-wrap placeholder-img">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2">
+                            <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div class="proj-body">
                         <p class="proj-tag">À définir</p>
-                        <h3 class="proj-title">Projet 2</h3>
-                        <p class="proj-desc">Description du second projet à venir.</p>
+                        <h3 class="proj-title">Projet 3</h3>
+                        <p class="proj-desc">Description du projet à venir.</p>
                         <div class="tag-row">
                             <span class="tag">···</span>
                         </div>
-                        <div class="proj-links">
-                            <span class="card-link sm muted"><i class="bi bi-clock"></i> Bientôt disponible</span>
+                    </div>
+                </div>
+
+                <!-- Réalisation 2 -->
+                <div class="proj-card anim" style="--d:.2s">
+                    <div class="proj-img-wrap placeholder-img">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2">
+                            <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div class="proj-body">
+                        <p class="proj-tag">À définir</p>
+                        <h3 class="proj-title">Projet 4</h3>
+                        <p class="proj-desc">Description du projet à venir.</p>
+                        <div class="tag-row">
+                            <span class="tag">···</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Réalisation 3 -->
+                <div class="proj-card anim" style="--d:.3s">
+                    <div class="proj-img-wrap placeholder-img">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2">
+                            <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div class="proj-body">
+                        <p class="proj-tag">À définir</p>
+                        <h3 class="proj-title">Projet 5</h3>
+                        <p class="proj-desc">Description du projet à venir.</p>
+                        <div class="tag-row">
+                            <span class="tag">···</span>
                         </div>
                     </div>
                 </div>
