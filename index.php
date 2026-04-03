@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Jessy | Etudiant SIO</title>
+    <title>Portfolio — Jessy Frachisse</title>
 
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -19,429 +21,282 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#accueil">
-                <span class="brand-text">Portfolio</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#accueil">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#stages">Stages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projets">Projets</a>
-                    </li>
-                </ul>
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a class="nav-brand" href="#accueil">Jessy <span>Frachisse</span></a>
+            <div class="nav-links">
+                <a class="nav-link" href="#accueil">Accueil</a>
+                <a class="nav-link" href="#stages">Stages</a>
+                <a class="nav-link" href="#projets_retenus">Projets retenus</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="accueil" class="hero-section d-flex align-items-center">
-        <div class="container">
-            <div class="row align-items-center g-5">
-                <!-- Colonne gauche - Présentation -->
-                <div class="col-lg-6">
-                    <h1 class="hero-title mb-3">Jessy</h1>
-                    <h2 class="hero-subtitle mb-4">Développeur étudiant</h2>
-                    <p class="hero-description mb-4">
+    <!-- ── HERO ── -->
+    <section id="accueil" class="hero-section">
+        <div class="wrapper">
+
+            <header class="hero-header anim" style="--d:0s">
+                <p class="eyebrow">Portfolio BTS SIO SLAM</p>
+                <h1>Jessy <span>Frachisse</span></h1>
+                <p class="hero-sub">Développeur étudiant · BTS SIO option SLAM</p>
+            </header>
+
+            <div class="hero-body">
+                <!-- À propos -->
+                <div class="hero-about anim" style="--d:.15s">
+                    <p class="section-label-inline">À propos</p>
+                    <p class="hero-desc">
                         Étudiant en BTS SIO option SLAM, passionné par le développement web et la création d'applications innovantes.
                         Spécialisé en PHP, Symfony et développement avec une forte orientation architecture MVC et API RESTful.
                     </p>
-                    <div class="hero-stats mb-4">
-                        <div class="stat-item">
-                            <div class="stat-number">2+</div>
-                            <div class="stat-label">Années d'études</div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-n">2+</span>
+                            <span class="stat-l">Années d'études</span>
                         </div>
-                        <div class="stat-item">
-                            <div class="stat-number">4+</div>
-                            <div class="stat-label">Projets réalisés</div>
+                        <div class="stat">
+                            <span class="stat-n">4+</span>
+                            <span class="stat-l">Projets réalisés</span>
                         </div>
-                        <div class="stat-item">
-                            <div class="stat-number">2</div>
-                            <div class="stat-label">Stages</div>
+                        <div class="stat">
+                            <span class="stat-n">2</span>
+                            <span class="stat-l">Stages</span>
                         </div>
                     </div>
-                    <div class="hero-buttons">
-                        <a href="#projets" class="btn btn-primary me-3">
-                            <i class="bi bi-code-square me-2"></i>Projets
+                    <div class="hero-actions">
+                        <a href="#projets_retenus" class="btn-primary">
+                            <i class="bi bi-code-square"></i> Projets retenus
                         </a>
-                        <a href="assets/documents/CVJessy.png" class="btn btn-outline-light" target="_blank">
-                            <i class="bi bi-download me-2"></i>Télécharger CV
+                        <a href="assets/documents/CVJessy.png" class="btn-ghost" target="_blank">
+                            <i class="bi bi-download"></i> CV
                         </a>
                     </div>
                 </div>
 
-                <!-- Colonne droite - Parcours rapide -->
-                <div class="col-lg-6">
-                    <div class="hero-card">
-                        <h3 class="hero-card-title mb-4">
-                            <i class="bi bi-rocket-takeoff me-2"></i>Parcours & Formation
-                        </h3>
-                        <div class="hero-timeline">
-                            <div class="hero-timeline-item">
-                                <div class="hero-timeline-date">2023 - 2025</div>
-                                <div class="hero-timeline-content">
-                                    <h4>Domaine informatique</h4>
-                                    <div class="hero-skills">
-                                        <span class="badge bg-tech-hero">BAC+4 Concepteur web "PHP/Symfony"</span>
-                                        <span class="badge bg-tech-hero">BTS SIO option SLAM</span>
-                                        <span class="badge bg-tech-hero">Dév Back-End chez SESIOM</span>
-                                    </div>
+                <!-- Parcours -->
+                <div class="hero-parcours anim" style="--d:.3s">
+                    <p class="section-label-inline">Parcours &amp; Formation</p>
+
+                    <div class="mini-timeline">
+                        <div class="mt-item">
+                            <span class="mt-date">2023 – 2025</span>
+                            <div class="mt-content">
+                                <p class="mt-title">Domaine informatique</p>
+                                <div class="tag-row">
+                                    <span class="tag">BAC+4 Concepteur web</span>
+                                    <span class="tag">BTS SIO SLAM</span>
+                                    <span class="tag">Dév Back-End chez SESIOM</span>
                                 </div>
                             </div>
-                            <div class="hero-timeline-item">
-                                <div class="hero-timeline-date">2019 - 2022</div>
-                                <div class="hero-timeline-content">
-                                    <h4>Autre domaine</h4>
-                                    <div class="hero-skills">
-                                        <span class="badge bg-tech-hero">Relation client IKEA</span>
-                                        <span class="badge bg-tech-hero">Manutentionnaire chez Ferme des Volcans</span>
-                                    </div>
+                        </div>
+                        <div class="mt-item">
+                            <span class="mt-date">2019 – 2022</span>
+                            <div class="mt-content">
+                                <p class="mt-title">Domaine autre</p>
+                                <div class="tag-row">
+                                    <span class="tag">Relation client IKEA</span>
+                                    <span class="tag">Manutentionnaire — Ferme des Volcans</span>
                                 </div>
                             </div>
-                            <div class="hero-timeline-item">
-                                <div class="hero-timeline-date">2015 - 2020</div>
-                                <div class="hero-timeline-content">
-                                    <h4>Domaine socio-éducatif</h4>
-                                    <div class="hero-skills">
-                                        <span class="badge bg-tech-hero">CAP Petite Enfance</span>
-                                        <span class="badge bg-tech-hero">BAFA Option "Séjours de vacances"</span>
-                                        <span class="badge bg-tech-hero">BAC ST2S</span>
-                                        <span class="badge bg-tech-hero">Encadrant & Animateur</span>
-                                    </div>
+                        </div>
+                        <div class="mt-item">
+                            <span class="mt-date">2015 – 2020</span>
+                            <div class="mt-content">
+                                <p class="mt-title">Domaine socio-éducatif</p>
+                                <div class="tag-row">
+                                    <span class="tag">CAP Petite Enfance</span>
+                                    <span class="tag">BAFA</span>
+                                    <span class="tag">BAC ST2S</span>
+                                    <span class="tag">Encadrant &amp; Animateur</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <!-- Stages Section -->
-    <section id="stages" class="section-padding stages-section">
-        <div class="container">
-            <h2 class="section-title text-center mb-5">Stages</h2>
+    <!-- ── STAGES ── -->
+    <section id="stages" class="page-section">
+        <div class="wrapper">
 
-            <div class="timeline-container">
+            <div class="section-heading anim" style="--d:0s">
+                <div class="section-label-row">
+                    <span>Stages</span>
+                </div>
+            </div>
+
+            <div class="timeline-wrap">
+
                 <!-- Stage 1 -->
-                <div class="timeline-item-stage">
-                    <div class="timeline-marker">
-                        <i class="bi bi-briefcase"></i>
-                    </div>
-                    <div class="timeline-content-stage">
-                        <div class="stage-date-badge">
-                            <i class="bi bi-calendar-event"></i>
-                            <span>12 Mai - 27 Juin 2025</span>
+                <div class="tl-item anim" style="--d:.1s">
+                    <div class="tl-marker"></div>
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <span class="mono-date"><i class="bi bi-calendar3"></i> 12 Mai – 27 Juin 2025</span>
+                            <h3 class="tl-title">BlackHole Événements</h3>
                         </div>
-                        <h3 class="stage-title">Stage 1 - BlackHole Événements</h3>
 
-                        <div class="stage-details">
-                            <div class="stage-info-block">
-                                <div class="info-icon">
-                                    <i class="bi bi-building"></i>
-                                </div>
-                                <div class="info-content">
-                                    <h5>Entreprise</h5>
-                                    <p>Spécialiste de l'événementiel sur mesure : mariages, concerts, festivals... basée à Riom</p>
-                                </div>
+                        <div class="tl-grid">
+                            <div class="tl-block">
+                                <p class="tl-block-label">Entreprise</p>
+                                <p class="tl-block-text">Spécialiste de l'événementiel sur mesure — mariages, concerts, festivals, basée à Riom.</p>
                             </div>
-
-                            <div class="stage-info-block">
-                                <div class="info-icon">
-                                    <i class="bi bi-list-task"></i>
-                                </div>
-                                <div class="info-content">
-                                    <h5>Missions</h5>
-                                    <p>- Refonte complète du site</p>
-                                    <p>- Audit du site AVI (Société mère) au vu d'une réunion avec leur agence web extérieure</p>
-                                    <p>- Participation à leurs activités afin de m'intégrer et de m'imprégner de leur cœur de métier</p>
-                                </div>
+                            <div class="tl-block">
+                                <p class="tl-block-label">Missions</p>
+                                <ul class="tl-list">
+                                    <li>Refonte complète du site</li>
+                                    <li>Audit du site AVI (Société mère)</li>
+                                    <li>Participation aux activités pour m'imprégner de leur cœur de métier</li>
+                                </ul>
                             </div>
-
-                            <div class="stage-info-block">
-                                <div class="info-icon">
-                                    <i class="bi bi-tools"></i>
-                                </div>
-                                <div class="info-content">
-                                    <h5>Technologies</h5>
-                                    <div class="tech-tags-stage">
-                                        <span class="badge bg-tech-stage">PHP</span>
-                                        <span class="badge bg-tech-stage">MySQL</span>
-                                        <span class="badge bg-tech-stage">CSS/JS</span>
-                                        <span class="badge bg-tech-stage">Bootstrap</span>
-                                    </div>
+                            <div class="tl-block">
+                                <p class="tl-block-label">Technologies</p>
+                                <div class="tag-row">
+                                    <span class="tag">PHP</span>
+                                    <span class="tag">MySQL</span>
+                                    <span class="tag">CSS / JS</span>
+                                    <span class="tag">Bootstrap</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="stage-action">
-                            <a href="https://www.blackhole-evenements.com/" class="btn-stage me-3" target="_blank">
-                                <i class="bi bi-globe"></i>
-                                <span>Lien du site</span>
+                        <div class="tl-actions">
+                            <a href="https://www.blackhole-evenements.com/" class="card-link" target="_blank">
+                                <i class="bi bi-globe2"></i> Voir le site
+                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                             </a>
-                            <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_BlackHole.pdf" class="btn-stage" target="_blank">
-                                <i class="bi bi-file-pdf-fill"></i>
-                                <span>Consulter le rapport</span>
+                            <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_BlackHole.pdf" class="card-link" target="_blank">
+                                <i class="bi bi-file-pdf"></i> Rapport de stage
+                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Stage 2 -->
-                <div class="timeline-item-stage">
-                    <div class="timeline-marker">
-                        <i class="bi bi-briefcase"></i>
-                    </div>
-                    <div class="timeline-content-stage">
-                        <div class="stage-date-badge">
-                            <i class="bi bi-calendar-event"></i>
-                            <span>05 Janvier - 13 Février 2026</span>
+                <div class="tl-item anim" style="--d:.2s">
+                    <div class="tl-marker"></div>
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <span class="mono-date"><i class="bi bi-calendar3"></i> 05 Janvier – 13 Février 2026</span>
+                            <h3 class="tl-title">APA 63</h3>
                         </div>
-                        <h3 class="stage-title">Stage 2 - APA 63</h3>
 
-                        <div class="stage-details">
-                            <div class="stage-info-block">
-                                <div class="info-icon">
-                                    <i class="bi bi-building"></i>
-                                </div>
-                                <div class="info-content">
-                                    <h5>Entreprise</h5>
-                                    <p>Association protectrice des animaux du Puy-de-Dôme</p>
-                                </div>
+                        <div class="tl-grid">
+                            <div class="tl-block">
+                                <p class="tl-block-label">Entreprise</p>
+                                <p class="tl-block-text">Association protectrice des animaux du Puy-de-Dôme.</p>
                             </div>
-
-                            <div class="stage-info-block">
-                                <div class="info-icon">
-                                    <i class="bi bi-list-task"></i>
-                                </div>
-                                <div class="info-content">
-                                    <h5>Missions</h5>
-                                    <p>- Création d'une application web mobile pour la gestion des promenades des chiens</p>
-                                    <p>- Réunion d'apprentissage de l'outil</p>
-                                    <p>- Modification sur le WordPress de leur site web</p>
-                                </div>
+                            <div class="tl-block">
+                                <p class="tl-block-label">Missions</p>
+                                <ul class="tl-list">
+                                    <li>Création d'une application web mobile — gestion des promenades</li>
+                                    <li>Réunion d'apprentissage de l'outil</li>
+                                    <li>Modifications sur le WordPress de leur site</li>
+                                </ul>
                             </div>
-
-                            <div class="stage-info-block">
-                                <div class="info-icon">
-                                    <i class="bi bi-tools"></i>
-                                </div>
-                                <div class="info-content">
-                                    <h5>Technologies</h5>
-                                    <div class="tech-tags-stage">
-                                        <span class="badge bg-tech-stage">PHP</span>
-                                        <span class="badge bg-tech-stage">JavaScript</span>
-                                        <span class="badge bg-tech-stage">Import CSV</span>
-                                        <span class="badge bg-tech-stage">WordPress</span>
-                                    </div>
+                            <div class="tl-block">
+                                <p class="tl-block-label">Technologies</p>
+                                <div class="tag-row">
+                                    <span class="tag">PHP</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">Import CSV</span>
+                                    <span class="tag">WordPress</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="stage-action">
-                            <a href="#" class="btn-stage me-3" style="cursor: not-allowed;">
-                                <i class="bi bi-globe"></i>
-                                <span>Lien privé</span>
-                            </a>
-                            <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_APA63.pdf" class="btn-stage" target="_blank">
-                                <i class="bi bi-file-pdf-fill"></i>
-                                <span>Consulter le rapport</span>
+                        <div class="tl-actions">
+                            <span class="card-link muted">
+                                <i class="bi bi-lock"></i> Lien privé
+                            </span>
+                            <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_APA63.pdf" class="card-link" target="_blank">
+                                <i class="bi bi-file-pdf"></i> Rapport de stage
+                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                             </a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Projets E6 Section -->
-    <section id="projets" class="section-padding projects-section">
-        <div class="container">
-            <h2 class="section-title text-center mb-5">Projets</h2>
+    <!-- ── PROJETS ── -->
+    <section id="projets_retenus" class="page-section">
+        <div class="wrapper">
 
-            <div class="row g-4">
+            <div class="section-heading anim" style="--d:0s">
+                <div class="section-label-row">
+                    <span>Projets retenus</span>
+                </div>
+            </div>
 
-                <!-- Projet 1 - Civilipédia -->
-                <div class="col-lg-6">
-                    <div class="project-card h-100">
-                        <!-- Image du projet -->
-                        <div class="project-image">
-                            <img src="assets/img/imgTPWiki.jpg" alt="Civilipédia" class="img-fluid">
-                            <div class="project-overlay">
-                                <div class="project-status">
-                                    <span class="badge bg-success">
-                                        <i class="bi bi-check-circle-fill"></i> Terminé (Conversion Client/API en cours)
-                                    </span>
-                                </div>
-                            </div>
+            <div class="cards-grid">
+
+                <!-- Projet 1 — Civilipédia -->
+                <a class="proj-card anim" style="--d:.1s" href="https://sio.jbdelasalle.com/~jfrachisse/TP_Wiki_ClientAPI/" target="_blank">
+                    <div class="proj-img-wrap">
+                        <img src="assets/img/imgTPWiki.jpg" alt="Civilipédia" class="proj-img">
+                    </div>
+                    <div class="proj-body">
+                        <p class="proj-tag">Encyclopédie collaborative</p>
+                        <h3 class="proj-title">Civilipédia</h3>
+                        <p class="proj-desc">Wiki collaboratif sur les civilisations — accessible, responsive, géré par niveaux d'utilisateurs avec architecture MVC et documentation claire.</p>
+                        <div class="tag-row">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">MVC</span>
                         </div>
+                        <div class="proj-links">
+                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+                            <span class="card-link sm"><i class="bi bi-file-earmark-text"></i> Fiche E6</span>
+                            <span class="card-link sm"><i class="bi bi-github"></i> GitHub</span>
+                        </div>
+                    </div>
+                </a>
 
-                        <div class="project-body">
-                            <div class="project-header">
-                                <h3>Civilipédia</h3>
-                                <p class="project-tagline">Encyclopédie interactive des civilisations</p>
-                            </div>
-
-                            <div class="project-content">
-                                <div class="project-description">
-                                    <p>Civilipédia est un wiki collaboratif sur les civilisations, pensé pour être accessible, responsive et géré par différents niveaux d’utilisateurs, avec un développement structuré et une documentation claire</p>
-                                </div>
-
-                                <div class="project-tech">
-                                    <h5><i class="bi bi-code-slash"></i> Technologies</h5>
-                                    <div class="tech-tags-project">
-                                        <span class="badge bg-tech-project">PHP</span>
-                                        <span class="badge bg-tech-project">MySQL</span>
-                                        <span class="badge bg-tech-project">Bootstrap</span>
-                                        <span class="badge bg-tech-project">JavaScript</span>
-                                        <span class="badge bg-tech-project">MVC</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="project-footer">
-                                <div class="project-links">
-                                    <a href="https://sio.jbdelasalle.com/~jfrachisse/TP_Wiki_ClientAPI/" class="project-link" target="_blank" title="Démo en ligne">
-                                        <i class="bi bi-globe"></i>
-                                        <span>Démo</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Fiche E6">
-                                        <i class="bi bi-file-earmark-text"></i>
-                                        <span>Fiche E6</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Rapport">
-                                        <i class="bi bi-file-pdf"></i>
-                                        <span>Rapport</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Documentation API">
-                                        <i class="bi bi-book"></i>
-                                        <span>API</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Dépôt GitHub">
-                                        <i class="bi bi-github"></i>
-                                        <span>GitHub</span>
-                                    </a>
-                                </div>
-                            </div>
+                <!-- Projet 2 — À venir -->
+                <div class="proj-card anim" style="--d:.2s">
+                    <div class="proj-img-wrap placeholder-img">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2"><path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                    </div>
+                    <div class="proj-body">
+                        <p class="proj-tag">À définir</p>
+                        <h3 class="proj-title">Projet 2</h3>
+                        <p class="proj-desc">Description du second projet à venir.</p>
+                        <div class="tag-row">
+                            <span class="tag">···</span>
+                        </div>
+                        <div class="proj-links">
+                            <span class="card-link sm muted"><i class="bi bi-clock"></i> Bientôt disponible</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Projet 2 - À choisir -->
-                <div class="col-lg-6">
-                    <div class="project-card h-100">
-                        <!-- Image du projet -->
-                        <div class="project-image">
-                            <img src="assets/images/project2-preview.jpg" alt="En attente de choisir" class="img-fluid">
-                            <div class="project-overlay">
-                                <div class="project-status">
-                                    <span class="badge bg-warning">
-                                        <i class="bi bi-hourglass-split"></i> En cours
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-body">
-                            <div class="project-header">
-                                <h3>Nom du Projet 2</h3>
-                                <p class="project-tagline">Slogan du projet</p>
-                            </div>
-
-                            <div class="project-content">
-                                <div class="project-description">
-                                    <p>Description du second projet</p>
-                                </div>
-
-                                <div class="project-tech">
-                                    <h5><i class="bi bi-code-slash"></i> Technologies</h5>
-                                    <div class="tech-tags-project">
-                                        <span class="badge bg-tech-project">...</span>
-                                        <span class="badge bg-tech-project">...</span>
-                                        <span class="badge bg-tech-project">...</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="project-footer">
-                                <div class="project-links">
-                                    <a href="#" class="project-link" target="_blank" title="Démo en ligne">
-                                        <i class="bi bi-globe"></i>
-                                        <span>Démo</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Fiche E6">
-                                        <i class="bi bi-file-earmark-text"></i>
-                                        <span>Fiche E6</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Rapport">
-                                        <i class="bi bi-file-pdf"></i>
-                                        <span>Rapport</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Documentation API">
-                                        <i class="bi bi-book"></i>
-                                        <span>API</span>
-                                    </a>
-                                    <a href="#" class="project-link" target="_blank" title="Dépôt GitHub">
-                                        <i class="bi bi-github"></i>
-                                        <span>GitHub</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
-                    <p class="mb-0 footer-text">
-                        <span class="footer-brand">Jessy</span> - Portfolio BTS SIO
-                    </p>
-                    <p class="mb-0 footer-subtext">Développeur Etudiant</p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="footer-links text-center text-lg-end">
-                        <a href="https://github.com/JessyFra" target="_blank" class="footer-btn" title="GitHub">
-                            <i class="bi bi-github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="https://sio.jbdelasalle.com/~jfrachisse/" target="_blank" class="footer-btn" title="Espace Web SIO">
-                            <i class="bi bi-globe"></i>
-                            <span>Espace SIO</span>
-                        </a>
-                        <a href="assets/documents/CVJessy.png" target="_blank" class="footer-btn" title="Télécharger CV">
-                            <i class="bi bi-file-earmark-pdf"></i>
-                            <span>Mon CV</span>
-                        </a>
-                    </div>
-                </div>
+    <!-- ── FOOTER ── -->
+    <footer class="site-footer">
+        <div class="wrapper footer-inner">
+            <p class="footer-brand">Jessy <span>Frachisse</span></p>
+            <p class="footer-sub">Portfolio BTS SIO SLAM · 2024 / 2026</p>
+            <div class="footer-links">
+                <a href="https://github.com/JessyFra" target="_blank" class="card-link sm"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://sio.jbdelasalle.com/~jfrachisse/" target="_blank" class="card-link sm"><i class="bi bi-globe2"></i> Espace SIO</a>
+                <a href="assets/documents/CVJessy.png" target="_blank" class="card-link sm"><i class="bi bi-file-earmark-pdf"></i> CV</a>
             </div>
-            <div class="row mt-4">
-                <div class="col-12 text-center">
-                    <p class="footer-copyright mb-0">
-                        &copy; 2026 - Tous droits réservés
-                    </p>
-                </div>
-            </div>
+            <p class="footer-copy">&copy; 2026 — Tous droits réservés</p>
         </div>
     </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
