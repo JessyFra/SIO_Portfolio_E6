@@ -202,7 +202,7 @@
                         <i class="bi bi-briefcase"></i>
                     </div>
                     <div class="timeline-content-stage">
-                        <div class="stage-date-badge upcoming">
+                        <div class="stage-date-badge">
                             <i class="bi bi-calendar-event"></i>
                             <span>05 Janvier - 13 Février 2026</span>
                         </div>
@@ -225,8 +225,9 @@
                                 </div>
                                 <div class="info-content">
                                     <h5>Missions</h5>
-                                    <p>- </p>
-                                    <p>- </p>
+                                    <p>- Création d'une application web mobile pour la gestion des promenades des chiens</p>
+                                    <p>- Réunion d'apprentissage de l'outil</p>
+                                    <p>- Modification sur le WordPress de leur site web</p>
                                 </div>
                             </div>
 
@@ -237,22 +238,23 @@
                                 <div class="info-content">
                                     <h5>Technologies</h5>
                                     <div class="tech-tags-stage">
-                                        <span class="badge bg-tech-stage">...</span>
-                                        <span class="badge bg-tech-stage">...</span>
-                                        <span class="badge bg-tech-stage">...</span>
+                                        <span class="badge bg-tech-stage">PHP</span>
+                                        <span class="badge bg-tech-stage">JavaScript</span>
+                                        <span class="badge bg-tech-stage">Import CSV</span>
+                                        <span class="badge bg-tech-stage">WordPress</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="stage-action">
-                            <a href="#" class="btn-stage me-3">
+                            <a href="#" class="btn-stage me-3" style="cursor: not-allowed;">
                                 <i class="bi bi-globe"></i>
-                                <span>Démo</span>
+                                <span>Lien privé</span>
                             </a>
-                            <a href="#" class="btn-stage">
-                                <i class="bi bi-hourglass-split"></i>
-                                <span>Rapport à venir</span>
+                            <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_APA63.pdf" class="btn-stage" target="_blank">
+                                <i class="bi bi-file-pdf-fill"></i>
+                                <span>Consulter le rapport</span>
                             </a>
                         </div>
                     </div>
@@ -277,7 +279,7 @@
                             <div class="project-overlay">
                                 <div class="project-status">
                                     <span class="badge bg-success">
-                                        <i class="bi bi-check-circle-fill"></i> Terminé
+                                        <i class="bi bi-check-circle-fill"></i> Terminé (Conversion Client/API en cours)
                                     </span>
                                 </div>
                             </div>
@@ -431,7 +433,7 @@
             <div class="row mt-4">
                 <div class="col-12 text-center">
                     <p class="footer-copyright mb-0">
-                        &copy; 2025 - Tous droits réservés
+                        &copy; 2026 - Tous droits réservés
                     </p>
                 </div>
             </div>
