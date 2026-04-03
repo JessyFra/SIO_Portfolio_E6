@@ -71,6 +71,9 @@
                         <a href="assets/documents/CVJessy.png" class="btn-ghost" target="_blank">
                             <i class="bi bi-download"></i> CV
                         </a>
+                        <a href="assets/documents/tableau-synthese-E5-Jessy-Frachisse.xlsx" class="btn-ghost" target="_blank">
+                            <i class="bi bi-table"></i> Tableau E5
+                        </a>
                     </div>
                 </div>
 
@@ -167,11 +170,15 @@
                         <div class="tl-actions">
                             <a href="https://www.blackhole-evenements.com/" class="card-link" target="_blank">
                                 <i class="bi bi-globe2"></i> Voir le site
-                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path d="M3 8h10M9 4l4 4-4 4" />
+                                </svg>
                             </a>
                             <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_BlackHole.pdf" class="card-link" target="_blank">
                                 <i class="bi bi-file-pdf"></i> Rapport de stage
-                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path d="M3 8h10M9 4l4 4-4 4" />
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -216,7 +223,9 @@
                             </span>
                             <a href="assets/documents/rapports-stages/RapportStage_JessyFrachisse_APA63.pdf" class="card-link" target="_blank">
                                 <i class="bi bi-file-pdf"></i> Rapport de stage
-                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path d="M3 8h10M9 4l4 4-4 4" />
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -255,7 +264,9 @@
                             <span class="tag">MVC</span>
                         </div>
                         <div class="proj-links">
-                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8">
+                                    <path d="M3 8h10M9 4l4 4-4 4" />
+                                </svg></span>
                             <span class="card-link sm"><i class="bi bi-file-earmark-text"></i> Fiche E6</span>
                             <span class="card-link sm"><i class="bi bi-github"></i> GitHub</span>
                         </div>
@@ -265,7 +276,9 @@
                 <!-- Projet 2 — À venir -->
                 <div class="proj-card anim" style="--d:.2s">
                     <div class="proj-img-wrap placeholder-img">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2"><path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2">
+                            <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
                     </div>
                     <div class="proj-body">
                         <p class="proj-tag">À définir</p>
@@ -293,6 +306,9 @@
                 <a href="https://github.com/JessyFra" target="_blank" class="card-link sm"><i class="bi bi-github"></i> GitHub</a>
                 <a href="https://sio.jbdelasalle.com/~jfrachisse/" target="_blank" class="card-link sm"><i class="bi bi-globe2"></i> Espace SIO</a>
                 <a href="assets/documents/CVJessy.png" target="_blank" class="card-link sm"><i class="bi bi-file-earmark-pdf"></i> CV</a>
+                <a href="assets/documents/tableau-synthese-E5-Jessy-Frachisse.xlsx" target="_blank" class="card-link sm">
+                    <i class="bi bi-table"></i> Tableau E5
+                </a>
             </div>
             <p class="footer-copy">&copy; 2026 — Tous droits réservés</p>
         </div>
