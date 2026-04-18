@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio — Jessy Frachisse</title>
+    <title>Portfolio - Jessy Frachisse</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -100,7 +100,7 @@
                                 <p class="mt-title">Domaine autre</p>
                                 <div class="tag-row">
                                     <span class="tag">Relation client IKEA</span>
-                                    <span class="tag">Manutentionnaire — Ferme des Volcans</span>
+                                    <span class="tag">Manutentionnaire - Ferme des Volcans</span>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                         <div class="tl-grid">
                             <div class="tl-block">
                                 <p class="tl-block-label">Entreprise</p>
-                                <p class="tl-block-text">Spécialiste de l'événementiel sur mesure — mariages, concerts, festivals, basée à Riom.</p>
+                                <p class="tl-block-text">Spécialiste de l'événementiel sur mesure - mariages, concerts, festivals, basée à Riom.</p>
                             </div>
                             <div class="tl-block">
                                 <p class="tl-block-label">Missions</p>
@@ -199,7 +199,7 @@
                             <div class="tl-block">
                                 <p class="tl-block-label">Missions</p>
                                 <ul class="tl-list">
-                                    <li>Création d'une application web mobile — gestion des promenades</li>
+                                    <li>Création d'une application web mobile pour gestion des promenades</li>
                                     <li>Réunion d'apprentissage de l'outil</li>
                                     <li>Modifications sur le WordPress de leur site</li>
                                 </ul>
@@ -245,15 +245,15 @@
 
             <div class="cards-grid">
 
-                <!-- Projet 1 — Civilipédia -->
-                <a class="proj-card anim" style="--d:.1s" href="https://sio.jbdelasalle.com/~jfrachisse/TP_Wiki_ClientAPI/" target="_blank">
+                <!-- Projet 1 - Civilipédia -->
+                <div class="proj-card anim" style="--d:.2s">
                     <div class="proj-img-wrap">
-                        <img src="assets/img/imgTPWiki.jpg" alt="Civilipédia" class="proj-img">
+                        <img src="assets/img/imgCivilipedia.jpg" alt="Civilipédia" class="proj-img">
                     </div>
                     <div class="proj-body">
                         <p class="proj-tag">Encyclopédie collaborative</p>
                         <h3 class="proj-title">Civilipédia</h3>
-                        <p class="proj-desc">Wiki collaboratif sur les civilisations — accessible, responsive, géré par niveaux d'utilisateurs avec architecture MVC et documentation claire.</p>
+                        <p class="proj-desc">Wiki collaboratif sur les civilisations, accessible, responsive, géré par niveaux d'utilisateurs avec architecture MVC et documentation claire.</p>
                         <div class="tag-row">
                             <span class="tag">PHP</span>
                             <span class="tag">MySQL</span>
@@ -262,39 +262,48 @@
                             <span class="tag">MVC</span>
                         </div>
                         <div class="proj-links">
-                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo</span>
-                            <span class="card-link sm"><i class="bi bi-file-earmark-text"></i> Fiche E6</span>
-                            <span class="card-link sm"><i class="bi bi-github"></i> GitHub</span>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Projet 2 — À venir -->
-                <div class="proj-card anim" style="--d:.2s">
-                    <div class="proj-img-wrap placeholder-img">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2">
-                            <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
-                    </div>
-                    <div class="proj-body">
-                        <p class="proj-tag">Site de petites annonces</p>
-                        <h3 class="proj-title">AnnonceLib</h3>
-                        <p class="proj-desc">Plateforme de petites annonces entre particuliers — recherche par catégorie et ville, dépôt d'annonces avec photos, messagerie entre utilisateurs et espace administration.</p>
-                        <div class="tag-row">
-                            <span class="tag">PHP</span>
-                            <span class="tag">MySQL</span>
-                            <span class="tag">Bootstrap</span>
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">MVC</span>
-                        </div>
-                        <div class="proj-links">
-                            <span class="card-link sm"><i class="bi bi-globe2"></i> Démo</span>
-                            <span class="card-link sm"><i class="bi bi-file-earmark-text"></i> Fiche E6</span>
-                            <span class="card-link sm"><i class="bi bi-github"></i> GitHub</span>
+                            <a href="#" class="card-link sm" target="_blank">
+                                <i class="bi bi-globe2"></i> Démo
+                            </a>
+                            <a href="assets/documents/fiche-e6/E6_Civilipedia.pdf" class="card-link sm" target="_blank">
+                                <i class="bi bi-file-earmark-text"></i> Fiche E6
+                            </a>
+                            <a href="https://github.com/JessyFra/Civilipedia_ClientAPI" class="card-link sm" target="_blank">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Projet 2 - Trouvaille -->
+                <div class="proj-card anim" style="--d:.2s">
+                    <div class="proj-img-wrap">
+                        <img src="assets/img/imgTrouvaille.png" alt="Trouvaille" class="proj-img">
+                    </div>
+                    <div class="proj-body">
+                        <p class="proj-tag">Site de petites annonces</p>
+                        <h3 class="proj-title">Trouvaille</h3>
+                        <p class="proj-desc">Plateforme de petites annonces entre particuliers - recherche par catégorie et ville, dépôt d'annonces avec photos, messagerie entre utilisateurs et espace administration.</p>
+                        <div class="tag-row">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">MVC</span>
+                        </div>
+                        <div class="proj-links">
+                            <a href="#" class="card-link sm" target="_blank">
+                                <i class="bi bi-globe2"></i> Démo
+                            </a>
+                            <a href="assets/documents/fiche-e6/E6_Trouvaille.pdf" class="card-link sm" target="_blank">
+                                <i class="bi bi-file-earmark-text"></i> Fiche E6
+                            </a>
+                            <a href="https://github.com/JessyFra/Trouvaille_ClientAPI" class="card-link sm" target="_blank">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -379,7 +388,7 @@
                     <i class="bi bi-table"></i> Tableau E5
                 </a>
             </div>
-            <p class="footer-copy">&copy; 2026 — Tous droits réservés</p>
+            <p class="footer-copy">&copy; 2026 - Tous droits réservés</p>
         </div>
     </footer>
 

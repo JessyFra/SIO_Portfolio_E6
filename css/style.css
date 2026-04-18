@@ -231,7 +231,7 @@ body::after {
     letter-spacing: 0.06em;
 }
 
-/* Hero body — two columns */
+/* Hero body - two columns */
 .hero-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -462,7 +462,7 @@ body::after {
 }
 
 /* =========================================
-   STAGES — TIMELINE
+   STAGES - TIMELINE
    ========================================= */
 .timeline-wrap {
     position: relative;
@@ -594,7 +594,7 @@ body::after {
 }
 
 /* =========================================
-   PROJECTS — CARDS
+   PROJECTS - CARDS
    ========================================= */
 .cards-grid {
     display: grid;
@@ -654,7 +654,6 @@ body::after {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
     display: block;
     filter: saturate(0.8) brightness(0.85);
     transition: filter 0.35s ease, transform 0.5s ease;
@@ -786,7 +785,7 @@ body::after {
 }
 
 /* =========================================
-   RESPONSIVE — NAVBAR mobile
+   RESPONSIVE - NAVBAR mobile
    ========================================= */
 @media (max-width: 480px) {
     .nav-links { gap: 1.2rem; }
