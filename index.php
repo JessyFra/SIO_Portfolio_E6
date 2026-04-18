@@ -328,7 +328,7 @@
                     <div class="proj-body">
                         <p class="proj-tag">Fansite</p>
                         <h3 class="proj-title">Les Mystérieuses cités d'or</h3>
-                        <p class="proj-desc">Fansite consacré aux Mystérieuses Cités d’Or, présentant l’univers de la série avec un design responsive via Bootstrap/CSS.</p>
+                        <p class="proj-desc">Fansite consacré aux Mystérieuses Cités d'Or, présentant l'univers de la série avec un design responsive via Bootstrap/CSS.</p>
                         <div class="tag-row">
                             <span class="tag">HTML5</span>
                             <span class="tag">CSS3</span>
@@ -345,7 +345,7 @@
                     <div class="proj-body">
                         <p class="proj-tag">Promotion d'une alimentation saine</p>
                         <h3 class="proj-title">Instagrume</h3>
-                        <p class="proj-desc">Instagrume est une plateforme web visant à encourager une alimentation saine en permettant aux utilisateurs de partager des photos de fruits et légumes. L’application propose des fonctionnalités différentes selon le rôle (visiteur, utilisateur connecté, modérateur) et s’appuie sur un client web en Symfony/Twig et une API Symfony sécurisée par JWT. Les images sont stockées côté API et le site est entièrement responsive grâce à Bootstrap.</p>
+                        <p class="proj-desc">Instagrume est une plateforme web visant à encourager une alimentation saine en permettant aux utilisateurs de partager des photos de fruits et légumes. L'application propose des fonctionnalités différentes selon le rôle (visiteur, utilisateur connecté, modérateur) et s'appuie sur un client web en Symfony/Twig et une API Symfony sécurisée par JWT. Les images sont stockées côté API et le site est entièrement responsive grâce à Bootstrap.</p>
                         <div class="tag-row">
                             <span class="tag">Symfony</span>
                             <span class="tag">Twig</span>
@@ -365,7 +365,7 @@
                     <div class="proj-body">
                         <p class="proj-tag">Serious game éducatif</p>
                         <h3 class="proj-title">Paper Quiz</h3>
-                        <p class="proj-desc">PaperQuizz est un serious game destiné aux enseignants et élèves, permettant de réviser via des quizz intégrés à un mini‑jeu 2D. L’application se compose d’une API Node.js, d’une interface d’administration Angular et d’un jeu Phaser où l’on lance une boule de papier dans une corbeille pour répondre vrai ou faux, le tout dans une ambiance de salle de classe ancienne.</p>
+                        <p class="proj-desc">PaperQuizz est un serious game destiné aux enseignants et élèves, permettant de réviser via des quizz intégrés à un mini‑jeu 2D. L'application se compose d'une API Node.js, d'une interface d'administration Angular et d'un jeu Phaser où l'on lance une boule de papier dans une corbeille pour répondre vrai ou faux, le tout dans une ambiance de salle de classe ancienne.</p>
                         <div class="tag-row">
                             <span class="tag">Node.js</span>
                             <span class="tag">Angular</span>
