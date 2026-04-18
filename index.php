@@ -318,11 +318,11 @@
                 </div>
             </div>
 
-            <div class="cards-grid" style="grid-template-columns: repeat(3, 1fr);">
+            <div class="real-list">
 
                 <!-- Réalisation 1 -->
-                <div class="proj-card anim" style="--d:.1s">
-                    <div class="proj-img-wrap">
+                <div class="real-card anim" style="--d:.1s">
+                    <div class="real-img-wrap">
                         <img src="assets/img/imgFansite.jpg" alt="Fansite" class="proj-img">
                     </div>
                     <div class="proj-body">
@@ -338,8 +338,8 @@
                 </div>
 
                 <!-- Réalisation 2 -->
-                <div class="proj-card anim" style="--d:.2s">
-                    <div class="proj-img-wrap">
+                <div class="real-card anim" style="--d:.2s">
+                    <div class="real-img-wrap">
                         <img src="assets/img/imgInstagrume.svg" alt="Instagrume" class="proj-img">
                     </div>
                     <div class="proj-body">
@@ -358,8 +358,8 @@
                 </div>
 
                 <!-- Réalisation 3 -->
-                <div class="proj-card anim" style="--d:.3s">
-                    <div class="proj-img-wrap">
+                <div class="real-card anim" style="--d:.3s">
+                    <div class="real-img-wrap">
                         <img src="assets/img/imgSeriousGame.svg" alt="Serious Game" class="proj-img">
                     </div>
                     <div class="proj-body">
